@@ -7,3 +7,63 @@
 body {
 	background: #d3d4d6;
 }
+
+a {
+	text-decoration: none;
+}
+
+#main-container {
+	width: 310px;
+	margin: 3em auto;
+}
+	.tab {
+		background: #ffffff;
+		width: 310px;
+		height: 55px;
+	}
+	#messages {
+		background: #df4f37;
+	}
+		#messages h3 {
+			color: #ffffff;
+		}
+		#messages .notification {
+			background: #c9412b;
+		}
+		.notification {
+			display: inline-block;
+			width: 39px;
+			line-height: 24px;
+			float: right;
+			margin: 15px 15px;
+			text-align: center;
+			background: #dcdddf;
+			color: #ffffff;
+			font-family: sans-serif;
+			font-size: 11px;
+			font-weight: bold;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+			border-radius: 25px;
+		}
+			.notification:hover {
+				background: #2eb398;
+			}
+		.tab h3 {
+		margin: 0 0 0 20px;
+		line-height: 55px;
+		cursor: pointer;
+		font-size: 16px;
+		font-family: sans-serif;
+		color: #363a3d;
+		display: inline-block;
+		float: left;
+		}
+
+	.tabBody {
+		background: #e7604a;
+		width: 310px;
+		height: 100px;
+		display: none;
+		border-top: solid 1px #eb806c;
+	}
